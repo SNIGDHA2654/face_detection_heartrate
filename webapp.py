@@ -62,7 +62,7 @@ def main():
     if st.button('Camera'):
         open_cam()
 
-    if st.button('Check Hear Rate'):
+    if st.button('Check Heart Rate'):
         os.system('python get_pulse.py')
 
 if __name__ == '__main__':
